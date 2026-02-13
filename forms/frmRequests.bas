@@ -1,0 +1,1599 @@
+﻿Version =20
+VersionRequired =20
+Begin Form
+    DividingLines = NotDefault
+    AllowDesignChanges = NotDefault
+    DefaultView =0
+    ScrollBars =0
+    TabularFamily =0
+    PictureAlignment =2
+    DatasheetGridlinesBehavior =3
+    GridX =24
+    GridY =24
+    Width =17280
+    DatasheetFontHeight =11
+    ItemSuffix =152
+    Right =19440
+    Bottom =11865
+    AfterInsert ="[Event Procedure]"
+    RecSrcDt = Begin
+        0xeaaf1c87707de640
+    End
+    RecordSource ="tblRequests"
+    Caption ="Request Form"
+    OnCurrent ="[Event Procedure]"
+    BeforeInsert ="[Event Procedure]"
+    DatasheetFontName ="Aptos"
+    OnLoad ="[Event Procedure]"
+    OnUndo ="[Event Procedure]"
+    FilterOnLoad =0
+    ShowPageMargins =0
+    DisplayOnSharePointSite =1
+    DatasheetAlternateBackColor =15921906
+    DatasheetGridlinesColor12 =0
+    FitToScreen =1
+    DatasheetBackThemeColorIndex =1
+    BorderThemeColorIndex =3
+    ThemeFontIndex =1
+    ForeThemeColorIndex =0
+    AlternateBackThemeColorIndex =1
+    AlternateBackShade =95.0
+    Begin
+        Begin Label
+            BackStyle =0
+            TextFontFamily =0
+            FontSize =11
+            FontName ="Aptos"
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =0
+            BorderTint =50.0
+            ForeThemeColorIndex =0
+            ForeTint =60.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Rectangle
+            SpecialEffect =3
+            BackStyle =0
+            BorderLineStyle =0
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin CommandButton
+            TextFontFamily =0
+            FontSize =11
+            FontWeight =400
+            FontName ="Aptos"
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+            UseTheme =1
+            Shape =1
+            Gradient =12
+            BackThemeColorIndex =4
+            BackTint =60.0
+            BorderLineStyle =0
+            BorderThemeColorIndex =4
+            BorderTint =60.0
+            ThemeFontIndex =1
+            HoverThemeColorIndex =4
+            HoverTint =40.0
+            PressedThemeColorIndex =4
+            PressedShade =75.0
+            HoverForeThemeColorIndex =0
+            HoverForeTint =75.0
+            PressedForeThemeColorIndex =0
+            PressedForeTint =75.0
+        End
+        Begin TextBox
+            AddColon = NotDefault
+            FELineBreak = NotDefault
+            TextFontFamily =0
+            BorderLineStyle =0
+            LabelX =-1800
+            FontSize =11
+            FontName ="Aptos"
+            AsianLineBreak =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ThemeFontIndex =1
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin ComboBox
+            AddColon = NotDefault
+            TextFontFamily =0
+            BorderLineStyle =0
+            LabelX =-1800
+            FontSize =11
+            FontName ="Aptos"
+            AllowValueListEdits =1
+            InheritValueList =1
+            ThemeFontIndex =1
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            ForeThemeColorIndex =2
+            ForeShade =50.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin Subform
+            BorderLineStyle =0
+            BorderThemeColorIndex =1
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+            BorderShade =65.0
+            ShowPageHeaderAndPageFooter =1
+        End
+        Begin Tab
+            TextFontFamily =0
+            FontSize =11
+            FontName ="Aptos Display"
+            ThemeFontIndex =0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+            UseTheme =1
+            Shape =3
+            BackThemeColorIndex =1
+            BackShade =85.0
+            BorderLineStyle =0
+            BorderThemeColorIndex =2
+            BorderTint =60.0
+            HoverThemeColorIndex =1
+            PressedThemeColorIndex =1
+            HoverForeThemeColorIndex =0
+            HoverForeTint =75.0
+            PressedForeThemeColorIndex =0
+            PressedForeTint =75.0
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+        End
+        Begin Page
+            BorderThemeColorIndex =1
+            BorderShade =65.0
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin EmptyCell
+            Height =240
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin NavigationControl
+            BorderWidth =1
+            BorderLineStyle =0
+            ForeColor =2102279
+            BackThemeColorIndex =1
+            BorderThemeColorIndex =1
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+        End
+        Begin NavigationButton
+            GridlineThemeColorIndex =1
+            GridlineShade =65.0
+            HoverThemeColorIndex =2
+            HoverTint =20.0
+            PressedThemeColorIndex =2
+            PressedTint =60.0
+            HoverForeThemeColorIndex =0
+            HoverForeTint =75.0
+            PressedForeThemeColorIndex =0
+            PressedForeTint =75.0
+            BackThemeColorIndex =1
+            OldBorderStyle =0
+            BorderLineStyle =0
+            BorderThemeColorIndex =3
+            BorderShade =90.0
+            ThemeFontIndex =1
+            TextFontFamily =0
+            FontName ="Aptos"
+            FontWeight =400
+            FontSize =11
+            ForeThemeColorIndex =0
+            ForeTint =75.0
+        End
+        Begin FormHeader
+            Height =1500
+            BackColor =14013909
+            Name ="FormHeader"
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            Begin
+                Begin Label
+                    OverlapFlags =93
+                    TextFontFamily =34
+                    Left =144
+                    Top =144
+                    Width =11340
+                    Height =1260
+                    FontSize =26
+                    ControlGroup =1
+                    LeftMargin =72
+                    Name ="lblGrey"
+                    Caption ="Maintenance\015\012Appliances/Blinds/Paint/Remodel Requests"
+                    FontName ="Arial Rounded MT Bold"
+                    LayoutCachedLeft =144
+                    LayoutCachedTop =144
+                    LayoutCachedWidth =11484
+                    LayoutCachedHeight =1404
+                    ThemeFontIndex =-1
+                End
+                Begin Label
+                    OverlapFlags =215
+                    TextFontFamily =34
+                    Left =120
+                    Top =120
+                    Width =11340
+                    Height =1260
+                    FontSize =26
+                    ControlGroup =1
+                    LeftMargin =72
+                    ForeColor =683236
+                    Name ="lblOrange"
+                    Caption ="Maintenance\015\012Appliances/Blinds/Paint/Remodel Requests"
+                    FontName ="Arial Rounded MT Bold"
+                    LayoutCachedLeft =120
+                    LayoutCachedTop =120
+                    LayoutCachedWidth =11460
+                    LayoutCachedHeight =1380
+                    ThemeFontIndex =-1
+                    ForeThemeColorIndex =-1
+                    ForeTint =100.0
+                End
+                Begin CommandButton
+                    OverlapFlags =93
+                    AccessKey =72
+                    Left =12510
+                    Top =120
+                    Height =570
+                    FontSize =12
+                    Name ="btnHome"
+                    Caption ="&Home"
+                    OnClick ="[Event Procedure]"
+                    UnicodeAccessKey =72
+                    GroupTable =2
+
+                    LayoutCachedLeft =12510
+                    LayoutCachedTop =120
+                    LayoutCachedWidth =13950
+                    LayoutCachedHeight =690
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =2
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                    Bevel =1
+                    Gradient =0
+                    BackColor =7960953
+                    BackThemeColorIndex =-1
+                    BackTint =100.0
+                    BorderThemeColorIndex =9
+                    BorderTint =100.0
+                    HoverColor =2689663
+                    HoverThemeColorIndex =-1
+                    HoverTint =100.0
+                    PressedColor =4408131
+                    PressedThemeColorIndex =-1
+                    PressedShade =100.0
+                    HoverForeThemeColorIndex =1
+                    HoverForeTint =100.0
+                    PressedForeThemeColorIndex =1
+                    PressedForeTint =100.0
+                    GroupTable =2
+                    Shadow =-1
+                    QuickStyle =42
+                    QuickStyleMask =-52
+                    Overlaps =1
+                End
+                Begin CommandButton
+                    OverlapFlags =223
+                    AccessKey =82
+                    PictureType =2
+                    Left =14010
+                    Top =120
+                    Height =570
+                    FontSize =12
+                    TabIndex =1
+                    Name ="btnReset"
+                    Caption ="&Reset"
+                    UnicodeAccessKey =82
+                    GroupTable =2
+
+                    LayoutCachedLeft =14010
+                    LayoutCachedTop =120
+                    LayoutCachedWidth =15450
+                    LayoutCachedHeight =690
+                    PictureCaptionArrangement =5
+                    ColumnStart =2
+                    ColumnEnd =2
+                    LayoutGroup =2
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                    Bevel =1
+                    Gradient =0
+                    BackColor =7960953
+                    BackThemeColorIndex =-1
+                    BackTint =100.0
+                    BorderThemeColorIndex =9
+                    BorderTint =100.0
+                    HoverColor =2689663
+                    HoverThemeColorIndex =-1
+                    HoverTint =100.0
+                    PressedColor =4408131
+                    PressedThemeColorIndex =-1
+                    PressedShade =100.0
+                    HoverForeThemeColorIndex =1
+                    HoverForeTint =100.0
+                    PressedForeThemeColorIndex =1
+                    PressedForeTint =100.0
+                    GroupTable =2
+                    Shadow =-1
+                    QuickStyle =42
+                    QuickStyleMask =-52
+                    Overlaps =1
+                End
+                Begin CommandButton
+                    OverlapFlags =223
+                    AccessKey =80
+                    PictureType =2
+                    Left =12510
+                    Top =750
+                    Height =570
+                    FontSize =12
+                    TabIndex =2
+                    Name ="btnPrint"
+                    Caption ="&Print"
+                    ControlTipText ="Print Queued Work Orders"
+                    UnicodeAccessKey =80
+                    GroupTable =2
+
+                    LayoutCachedLeft =12510
+                    LayoutCachedTop =750
+                    LayoutCachedWidth =13950
+                    LayoutCachedHeight =1320
+                    PictureCaptionArrangement =5
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =1
+                    ColumnEnd =1
+                    LayoutGroup =2
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                    Bevel =1
+                    Gradient =0
+                    BackColor =7960953
+                    BackThemeColorIndex =-1
+                    BackTint =100.0
+                    BorderThemeColorIndex =9
+                    BorderTint =100.0
+                    HoverColor =2689663
+                    HoverThemeColorIndex =-1
+                    HoverTint =100.0
+                    PressedColor =4408131
+                    PressedThemeColorIndex =-1
+                    PressedShade =100.0
+                    HoverForeThemeColorIndex =1
+                    HoverForeTint =100.0
+                    PressedForeThemeColorIndex =1
+                    PressedForeTint =100.0
+                    GroupTable =2
+                    Shadow =-1
+                    QuickStyle =42
+                    QuickStyleMask =-52
+                    Overlaps =1
+                End
+                Begin EmptyCell
+                    Left =15510
+                    Top =120
+                    Width =150
+                    Height =570
+                    Name ="EmptyCell27"
+                    GroupTable =2
+                    HorizontalAnchor =2
+                    LayoutCachedLeft =15510
+                    LayoutCachedTop =120
+                    LayoutCachedWidth =15660
+                    LayoutCachedHeight =690
+                    ColumnStart =3
+                    ColumnEnd =3
+                    LayoutGroup =2
+                    WidthStretch =50
+                    GroupTable =2
+                End
+                Begin EmptyCell
+                    Left =15510
+                    Top =750
+                    Width =150
+                    Height =570
+                    Name ="EmptyCell28"
+                    GroupTable =2
+                    HorizontalAnchor =2
+                    LayoutCachedLeft =15510
+                    LayoutCachedTop =750
+                    LayoutCachedWidth =15660
+                    LayoutCachedHeight =1320
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =3
+                    ColumnEnd =3
+                    LayoutGroup =2
+                    WidthStretch =50
+                    GroupTable =2
+                End
+                Begin EmptyCell
+                    Left =12300
+                    Top =120
+                    Width =150
+                    Height =570
+                    Name ="EmptyCell39"
+                    GroupTable =2
+                    HorizontalAnchor =2
+                    LayoutCachedLeft =12300
+                    LayoutCachedTop =120
+                    LayoutCachedWidth =12450
+                    LayoutCachedHeight =690
+                    LayoutGroup =2
+                    WidthStretch =50
+                    GroupTable =2
+                End
+                Begin EmptyCell
+                    Left =12300
+                    Top =750
+                    Width =150
+                    Height =570
+                    Name ="EmptyCell40"
+                    GroupTable =2
+                    HorizontalAnchor =2
+                    LayoutCachedLeft =12300
+                    LayoutCachedTop =750
+                    LayoutCachedWidth =12450
+                    LayoutCachedHeight =1320
+                    RowStart =1
+                    RowEnd =1
+                    LayoutGroup =2
+                    WidthStretch =50
+                    GroupTable =2
+                End
+                Begin CommandButton
+                    OverlapFlags =215
+                    AccessKey =68
+                    PictureType =2
+                    Left =14010
+                    Top =750
+                    Height =570
+                    FontSize =12
+                    TabIndex =3
+                    Name ="btnPDF"
+                    Caption ="P&DF"
+                    ControlTipText ="Save PDF of Queued Work Orders"
+                    UnicodeAccessKey =68
+                    GroupTable =2
+
+                    LayoutCachedLeft =14010
+                    LayoutCachedTop =750
+                    LayoutCachedWidth =15450
+                    LayoutCachedHeight =1320
+                    PictureCaptionArrangement =5
+                    RowStart =1
+                    RowEnd =1
+                    ColumnStart =2
+                    ColumnEnd =2
+                    LayoutGroup =2
+                    ForeThemeColorIndex =1
+                    ForeTint =100.0
+                    Bevel =1
+                    Gradient =0
+                    BackColor =7960953
+                    BackThemeColorIndex =-1
+                    BackTint =100.0
+                    BorderThemeColorIndex =9
+                    BorderTint =100.0
+                    HoverColor =2689663
+                    HoverThemeColorIndex =-1
+                    HoverTint =100.0
+                    PressedColor =4408131
+                    PressedThemeColorIndex =-1
+                    PressedShade =100.0
+                    HoverForeThemeColorIndex =1
+                    HoverForeTint =100.0
+                    PressedForeThemeColorIndex =1
+                    PressedForeTint =100.0
+                    GroupTable =2
+                    Shadow =-1
+                    QuickStyle =42
+                    QuickStyleMask =-52
+                    Overlaps =1
+                End
+            End
+        End
+        Begin Section
+            CanGrow = NotDefault
+            Height =6900
+            BackColor =14013909
+            Name ="Detail"
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+            Begin
+                Begin Tab
+                    OverlapFlags =85
+                    Left =60
+                    Top =60
+                    Width =17130
+                    Height =6780
+                    TabFixedWidth =1440
+                    TabFixedHeight =576
+                    Name ="tabReqType"
+                    OnChange ="[Event Procedure]"
+                    HorizontalAnchor =2
+                    VerticalAnchor =2
+
+                    LayoutCachedLeft =60
+                    LayoutCachedTop =60
+                    LayoutCachedWidth =17190
+                    LayoutCachedHeight =6840
+                    Shape =4
+                    BackColor =7960953
+                    BackThemeColorIndex =-1
+                    BackShade =100.0
+                    BorderColor =0
+                    BorderThemeColorIndex =-1
+                    BorderTint =100.0
+                    PressedColor =14013909
+                    PressedThemeColorIndex =-1
+                    PressedForeColor =0
+                    PressedForeThemeColorIndex =-1
+                    PressedForeTint =100.0
+                    ForeColor =16777215
+                    ForeThemeColorIndex =-1
+                    ForeTint =100.0
+                    Begin
+                        Begin Page
+                            OverlapFlags =87
+                            Left =135
+                            Top =705
+                            Width =16980
+                            Height =6060
+                            Name ="pgBlank"
+                            Caption ="Main"
+                            LayoutCachedLeft =135
+                            LayoutCachedTop =705
+                            LayoutCachedWidth =17115
+                            LayoutCachedHeight =6765
+                            Begin
+                                Begin EmptyCell
+                                    Left =3600
+                                    Top =1920
+                                    Width =150
+                                    Height =389
+                                    Name ="EmptyCell64"
+                                    GroupTable =9
+                                    BottomPadding =144
+                                    HorizontalAnchor =2
+                                    LayoutCachedLeft =3600
+                                    LayoutCachedTop =1920
+                                    LayoutCachedWidth =3750
+                                    LayoutCachedHeight =2309
+                                    LayoutGroup =8
+                                    WidthStretch =50
+                                    GroupTable =9
+                                End
+                                Begin TextBox
+                                    Enabled = NotDefault
+                                    Locked = NotDefault
+                                    OverlapFlags =215
+                                    TextAlign =1
+                                    IMESentenceMode =3
+                                    Left =5400
+                                    Top =1920
+                                    Width =1185
+                                    Height =389
+                                    FontSize =14
+                                    LeftMargin =43
+                                    Name ="ID"
+                                    ControlSource ="ID"
+                                    StatusBarText ="Request Number"
+                                    GroupTable =9
+                                    BottomPadding =144
+
+                                    LayoutCachedLeft =5400
+                                    LayoutCachedTop =1920
+                                    LayoutCachedWidth =6585
+                                    LayoutCachedHeight =2309
+                                    ColumnStart =2
+                                    ColumnEnd =2
+                                    LayoutGroup =8
+                                    GroupTable =9
+                                    Begin
+                                        Begin Label
+                                            OverlapFlags =215
+                                            TextAlign =1
+                                            Left =3810
+                                            Top =1920
+                                            Width =1530
+                                            Height =389
+                                            FontSize =14
+                                            LeftMargin =43
+                                            Name ="Label1"
+                                            Caption ="Request ID"
+                                            GroupTable =9
+                                            BottomPadding =144
+                                            LayoutCachedLeft =3810
+                                            LayoutCachedTop =1920
+                                            LayoutCachedWidth =5340
+                                            LayoutCachedHeight =2309
+                                            ColumnStart =1
+                                            ColumnEnd =1
+                                            LayoutGroup =8
+                                            GroupTable =9
+                                        End
+                                    End
+                                End
+                                Begin TextBox
+                                    TabStop = NotDefault
+                                    OverlapFlags =215
+                                    TextAlign =1
+                                    IMESentenceMode =3
+                                    Left =8565
+                                    Top =1920
+                                    Width =1410
+                                    Height =389
+                                    FontSize =14
+                                    TabIndex =1
+                                    LeftMargin =43
+                                    Name ="reqDate"
+                                    ControlSource ="reqDate"
+                                    Format ="Short Date"
+                                    StatusBarText ="Request Date"
+                                    GroupTable =9
+                                    BottomPadding =144
+
+                                    LayoutCachedLeft =8565
+                                    LayoutCachedTop =1920
+                                    LayoutCachedWidth =9975
+                                    LayoutCachedHeight =2309
+                                    ColumnStart =4
+                                    ColumnEnd =4
+                                    LayoutGroup =8
+                                    GroupTable =9
+                                    Begin
+                                        Begin Label
+                                            OverlapFlags =215
+                                            TextAlign =1
+                                            Left =6645
+                                            Top =1920
+                                            Width =1860
+                                            Height =389
+                                            FontSize =14
+                                            LeftMargin =43
+                                            Name ="Label2"
+                                            Caption ="Request Date"
+                                            GroupTable =9
+                                            BottomPadding =144
+                                            LayoutCachedLeft =6645
+                                            LayoutCachedTop =1920
+                                            LayoutCachedWidth =8505
+                                            LayoutCachedHeight =2309
+                                            ColumnStart =3
+                                            ColumnEnd =3
+                                            LayoutGroup =8
+                                            GroupTable =9
+                                        End
+                                    End
+                                End
+                                Begin TextBox
+                                    OverlapFlags =215
+                                    TextAlign =1
+                                    IMESentenceMode =3
+                                    Left =11535
+                                    Top =1920
+                                    Width =2025
+                                    Height =389
+                                    FontSize =14
+                                    TabIndex =2
+                                    LeftMargin =43
+                                    Name ="Requestor"
+                                    ControlSource ="Requestor"
+                                    StatusBarText ="Requestor"
+                                    GroupTable =9
+                                    RightPadding =72
+                                    BottomPadding =144
+
+                                    LayoutCachedLeft =11535
+                                    LayoutCachedTop =1920
+                                    LayoutCachedWidth =13560
+                                    LayoutCachedHeight =2309
+                                    ColumnStart =6
+                                    ColumnEnd =7
+                                    LayoutGroup =8
+                                    GroupTable =9
+                                    Begin
+                                        Begin Label
+                                            OverlapFlags =215
+                                            TextAlign =1
+                                            Left =10035
+                                            Top =1920
+                                            Width =1440
+                                            Height =389
+                                            FontSize =14
+                                            LeftMargin =43
+                                            Name ="Label4"
+                                            Caption ="Requestor"
+                                            GroupTable =9
+                                            BottomPadding =144
+                                            LayoutCachedLeft =10035
+                                            LayoutCachedTop =1920
+                                            LayoutCachedWidth =11475
+                                            LayoutCachedHeight =2309
+                                            ColumnStart =5
+                                            ColumnEnd =5
+                                            LayoutGroup =8
+                                            GroupTable =9
+                                        End
+                                    End
+                                End
+                                Begin EmptyCell
+                                    Left =13665
+                                    Top =1920
+                                    Width =150
+                                    Height =389
+                                    Name ="EmptyCell67"
+                                    GroupTable =9
+                                    BottomPadding =144
+                                    HorizontalAnchor =2
+                                    LayoutCachedLeft =13665
+                                    LayoutCachedTop =1920
+                                    LayoutCachedWidth =13815
+                                    LayoutCachedHeight =2309
+                                    ColumnStart =8
+                                    ColumnEnd =8
+                                    LayoutGroup =8
+                                    WidthStretch =50
+                                    GroupTable =9
+                                End
+                                Begin EmptyCell
+                                    Left =3600
+                                    Top =2490
+                                    Width =150
+                                    Height =390
+                                    Name ="EmptyCell65"
+                                    GroupTable =9
+                                    BottomPadding =144
+                                    HorizontalAnchor =2
+                                    LayoutCachedLeft =3600
+                                    LayoutCachedTop =2490
+                                    LayoutCachedWidth =3750
+                                    LayoutCachedHeight =2880
+                                    RowStart =1
+                                    RowEnd =1
+                                    LayoutGroup =8
+                                    WidthStretch =50
+                                    GroupTable =9
+                                End
+                                Begin ComboBox
+                                    LimitToList = NotDefault
+                                    OverlapFlags =215
+                                    TextAlign =1
+                                    IMESentenceMode =3
+                                    ColumnCount =2
+                                    Left =5400
+                                    Top =2490
+                                    Width =8160
+                                    Height =390
+                                    FontSize =14
+                                    TabIndex =3
+                                    Name ="Unit"
+                                    ControlSource ="Unit"
+                                    RowSourceType ="Table/Query"
+                                    RowSource ="SELECT ID, Unit FROM Units ORDER BY Unit; "
+                                    ColumnWidths ="0;4320"
+                                    StatusBarText ="Unit"
+                                    GroupTable =9
+                                    RightPadding =72
+                                    BottomPadding =144
+                                    AllowValueListEdits =0
+                                    LeftMargin =43
+
+                                    LayoutCachedLeft =5400
+                                    LayoutCachedTop =2490
+                                    LayoutCachedWidth =13560
+                                    LayoutCachedHeight =2880
+                                    RowStart =1
+                                    RowEnd =1
+                                    ColumnStart =2
+                                    ColumnEnd =7
+                                    LayoutGroup =8
+                                    GroupTable =9
+                                    Begin
+                                        Begin Label
+                                            OverlapFlags =215
+                                            TextAlign =1
+                                            Left =3810
+                                            Top =2490
+                                            Width =1530
+                                            Height =390
+                                            FontSize =14
+                                            LeftMargin =43
+                                            Name ="Label3"
+                                            Caption ="Unit"
+                                            GroupTable =9
+                                            BottomPadding =144
+                                            LayoutCachedLeft =3810
+                                            LayoutCachedTop =2490
+                                            LayoutCachedWidth =5340
+                                            LayoutCachedHeight =2880
+                                            RowStart =1
+                                            RowEnd =1
+                                            ColumnStart =1
+                                            ColumnEnd =1
+                                            LayoutGroup =8
+                                            GroupTable =9
+                                        End
+                                    End
+                                End
+                                Begin EmptyCell
+                                    Left =13665
+                                    Top =2490
+                                    Width =150
+                                    Height =390
+                                    Name ="EmptyCell68"
+                                    GroupTable =9
+                                    BottomPadding =144
+                                    HorizontalAnchor =2
+                                    LayoutCachedLeft =13665
+                                    LayoutCachedTop =2490
+                                    LayoutCachedWidth =13815
+                                    LayoutCachedHeight =2880
+                                    RowStart =1
+                                    RowEnd =1
+                                    ColumnStart =8
+                                    ColumnEnd =8
+                                    LayoutGroup =8
+                                    WidthStretch =50
+                                    GroupTable =9
+                                End
+                                Begin EmptyCell
+                                    Left =3600
+                                    Top =3060
+                                    Width =150
+                                    Height =1170
+                                    Name ="EmptyCell66"
+                                    GroupTable =9
+                                    BottomPadding =144
+                                    HorizontalAnchor =2
+                                    LayoutCachedLeft =3600
+                                    LayoutCachedTop =3060
+                                    LayoutCachedWidth =3750
+                                    LayoutCachedHeight =4230
+                                    RowStart =2
+                                    RowEnd =2
+                                    LayoutGroup =8
+                                    WidthStretch =50
+                                    GroupTable =9
+                                End
+                                Begin TextBox
+                                    EnterKeyBehavior = NotDefault
+                                    OverlapFlags =215
+                                    TextAlign =1
+                                    IMESentenceMode =3
+                                    Left =5400
+                                    Top =3060
+                                    Width =8160
+                                    Height =1170
+                                    FontSize =14
+                                    TabIndex =4
+                                    LeftMargin =43
+                                    Name ="Tenant_Contact"
+                                    ControlSource ="Tenant_Contact"
+                                    StatusBarText ="Contact name/number/email"
+                                    GroupTable =9
+                                    RightPadding =72
+                                    BottomPadding =144
+
+                                    LayoutCachedLeft =5400
+                                    LayoutCachedTop =3060
+                                    LayoutCachedWidth =13560
+                                    LayoutCachedHeight =4230
+                                    RowStart =2
+                                    RowEnd =2
+                                    ColumnStart =2
+                                    ColumnEnd =7
+                                    LayoutGroup =8
+                                    GroupTable =9
+                                    Begin
+                                        Begin Label
+                                            OverlapFlags =215
+                                            TextAlign =1
+                                            Left =3810
+                                            Top =3060
+                                            Width =1530
+                                            Height =1170
+                                            FontSize =14
+                                            LeftMargin =43
+                                            Name ="Label5"
+                                            Caption ="Tenant Contact"
+                                            GroupTable =9
+                                            BottomPadding =144
+                                            LayoutCachedLeft =3810
+                                            LayoutCachedTop =3060
+                                            LayoutCachedWidth =5340
+                                            LayoutCachedHeight =4230
+                                            RowStart =2
+                                            RowEnd =2
+                                            ColumnStart =1
+                                            ColumnEnd =1
+                                            LayoutGroup =8
+                                            GroupTable =9
+                                        End
+                                    End
+                                End
+                                Begin EmptyCell
+                                    Left =13665
+                                    Top =3060
+                                    Width =150
+                                    Height =1170
+                                    Name ="EmptyCell69"
+                                    GroupTable =9
+                                    BottomPadding =144
+                                    HorizontalAnchor =2
+                                    LayoutCachedLeft =13665
+                                    LayoutCachedTop =3060
+                                    LayoutCachedWidth =13815
+                                    LayoutCachedHeight =4230
+                                    RowStart =2
+                                    RowEnd =2
+                                    ColumnStart =8
+                                    ColumnEnd =8
+                                    LayoutGroup =8
+                                    WidthStretch =50
+                                    GroupTable =9
+                                End
+                                Begin EmptyCell
+                                    Left =3600
+                                    Top =4410
+                                    Width =150
+                                    Height =570
+                                    Name ="EmptyCell115"
+                                    GroupTable =9
+                                    HorizontalAnchor =2
+                                    LayoutCachedLeft =3600
+                                    LayoutCachedTop =4410
+                                    LayoutCachedWidth =3750
+                                    LayoutCachedHeight =4980
+                                    RowStart =3
+                                    RowEnd =3
+                                    LayoutGroup =8
+                                    WidthStretch =50
+                                    GroupTable =9
+                                End
+                                Begin EmptyCell
+                                    Left =3810
+                                    Top =4410
+                                    Width =1530
+                                    Height =570
+                                    Name ="EmptyCell116"
+                                    GroupTable =9
+                                    LayoutCachedLeft =3810
+                                    LayoutCachedTop =4410
+                                    LayoutCachedWidth =5340
+                                    LayoutCachedHeight =4980
+                                    RowStart =3
+                                    RowEnd =3
+                                    ColumnStart =1
+                                    ColumnEnd =1
+                                    LayoutGroup =8
+                                    GroupTable =9
+                                End
+                                Begin EmptyCell
+                                    Left =5400
+                                    Top =4410
+                                    Width =7410
+                                    Height =570
+                                    Name ="EmptyCell149"
+                                    GroupTable =9
+                                    RightPadding =72
+                                    LayoutCachedLeft =5400
+                                    LayoutCachedTop =4410
+                                    LayoutCachedWidth =12810
+                                    LayoutCachedHeight =4980
+                                    RowStart =3
+                                    RowEnd =3
+                                    ColumnStart =2
+                                    ColumnEnd =6
+                                    LayoutGroup =8
+                                    GroupTable =9
+                                End
+                                Begin CommandButton
+                                    OverlapFlags =223
+                                    AccessKey =83
+                                    PictureType =2
+                                    Left =12915
+                                    Top =4410
+                                    Width =645
+                                    Height =570
+                                    FontSize =12
+                                    TabIndex =5
+                                    Name ="btnSave"
+                                    Caption ="&Save"
+                                    OnClick ="[Event Procedure]"
+                                    ControlTipText ="Save Record"
+                                    Picture ="save-xsm"
+                                    UnicodeAccessKey =83
+                                    GroupTable =9
+                                    RightPadding =72
+
+                                    LayoutCachedLeft =12915
+                                    LayoutCachedTop =4410
+                                    LayoutCachedWidth =13560
+                                    LayoutCachedHeight =4980
+                                    RowStart =3
+                                    RowEnd =3
+                                    ColumnStart =7
+                                    ColumnEnd =7
+                                    LayoutGroup =8
+                                    ForeThemeColorIndex =1
+                                    ForeTint =100.0
+                                    Bevel =1
+                                    Gradient =0
+                                    BackColor =7960953
+                                    BackThemeColorIndex =-1
+                                    BackTint =100.0
+                                    BorderThemeColorIndex =9
+                                    BorderTint =100.0
+                                    HoverColor =2689663
+                                    HoverThemeColorIndex =-1
+                                    HoverTint =100.0
+                                    PressedColor =4408131
+                                    PressedThemeColorIndex =-1
+                                    PressedShade =100.0
+                                    HoverForeThemeColorIndex =1
+                                    HoverForeTint =100.0
+                                    PressedForeThemeColorIndex =1
+                                    PressedForeTint =100.0
+                                    GroupTable =9
+                                    Shadow =-1
+                                    QuickStyle =42
+                                    QuickStyleMask =-52
+                                End
+                                Begin EmptyCell
+                                    Left =13665
+                                    Top =4410
+                                    Width =150
+                                    Height =570
+                                    Name ="EmptyCell122"
+                                    GroupTable =9
+                                    HorizontalAnchor =2
+                                    LayoutCachedLeft =13665
+                                    LayoutCachedTop =4410
+                                    LayoutCachedWidth =13815
+                                    LayoutCachedHeight =4980
+                                    RowStart =3
+                                    RowEnd =3
+                                    ColumnStart =8
+                                    ColumnEnd =8
+                                    LayoutGroup =8
+                                    WidthStretch =50
+                                    GroupTable =9
+                                End
+                            End
+                        End
+                        Begin Page
+                            OverlapFlags =247
+                            Left =135
+                            Top =705
+                            Width =16980
+                            Height =6060
+                            Name ="pgAppliances"
+                            Caption ="Appliances"
+                            LayoutCachedLeft =135
+                            LayoutCachedTop =705
+                            LayoutCachedWidth =17115
+                            LayoutCachedHeight =6765
+                            Begin
+                                Begin Subform
+                                    OverlapFlags =247
+                                    Left =1095
+                                    Top =840
+                                    Width =15030
+                                    Height =5880
+                                    Name ="frmAppliance_sub"
+                                    SourceObject ="Form.frmAppliance_sub"
+                                    LinkChildFields ="reqID"
+                                    LinkMasterFields ="ID"
+                                    GroupTable =4
+                                    VerticalAnchor =2
+
+                                    LayoutCachedLeft =1095
+                                    LayoutCachedTop =840
+                                    LayoutCachedWidth =16125
+                                    LayoutCachedHeight =6720
+                                    ColumnStart =1
+                                    ColumnEnd =1
+                                    LayoutGroup =3
+                                    WidthStretch =33
+                                    GroupTable =4
+                                End
+                                Begin EmptyCell
+                                    Left =885
+                                    Top =840
+                                    Width =144
+                                    Height =5880
+                                    Name ="EmptyCell77"
+                                    GroupTable =4
+                                    HorizontalAnchor =2
+                                    VerticalAnchor =2
+                                    LayoutCachedLeft =885
+                                    LayoutCachedTop =840
+                                    LayoutCachedWidth =1029
+                                    LayoutCachedHeight =6720
+                                    LayoutGroup =3
+                                    WidthStretch =50
+                                    GroupTable =4
+                                End
+                                Begin EmptyCell
+                                    Left =16185
+                                    Top =840
+                                    Width =144
+                                    Height =5880
+                                    Name ="EmptyCell78"
+                                    GroupTable =4
+                                    HorizontalAnchor =2
+                                    VerticalAnchor =2
+                                    LayoutCachedLeft =16185
+                                    LayoutCachedTop =840
+                                    LayoutCachedWidth =16329
+                                    LayoutCachedHeight =6720
+                                    ColumnStart =2
+                                    ColumnEnd =2
+                                    LayoutGroup =3
+                                    WidthStretch =50
+                                    GroupTable =4
+                                End
+                            End
+                        End
+                        Begin Page
+                            OverlapFlags =247
+                            Left =135
+                            Top =705
+                            Width =16980
+                            Height =6060
+                            Name ="pgBlinds"
+                            Caption ="Blinds"
+                            LayoutCachedLeft =135
+                            LayoutCachedTop =705
+                            LayoutCachedWidth =17115
+                            LayoutCachedHeight =6765
+                            Begin
+                                Begin Subform
+                                    OverlapFlags =247
+                                    Left =1095
+                                    Top =840
+                                    Width =15030
+                                    Height =5879
+                                    Name ="frmBlinds_ds"
+                                    SourceObject ="Form.frmBlinds_ds"
+                                    LinkChildFields ="reqID"
+                                    LinkMasterFields ="ID"
+                                    GroupTable =5
+                                    VerticalAnchor =2
+
+                                    LayoutCachedLeft =1095
+                                    LayoutCachedTop =840
+                                    LayoutCachedWidth =16125
+                                    LayoutCachedHeight =6719
+                                    ColumnStart =1
+                                    ColumnEnd =1
+                                    LayoutGroup =4
+                                    WidthStretch =33
+                                    GroupTable =5
+                                End
+                                Begin EmptyCell
+                                    Left =885
+                                    Top =840
+                                    Width =144
+                                    Height =5879
+                                    Name ="EmptyCell86"
+                                    GroupTable =5
+                                    HorizontalAnchor =2
+                                    VerticalAnchor =2
+                                    LayoutCachedLeft =885
+                                    LayoutCachedTop =840
+                                    LayoutCachedWidth =1029
+                                    LayoutCachedHeight =6719
+                                    LayoutGroup =4
+                                    WidthStretch =50
+                                    GroupTable =5
+                                End
+                                Begin EmptyCell
+                                    Left =16185
+                                    Top =840
+                                    Width =144
+                                    Height =5879
+                                    Name ="EmptyCell87"
+                                    GroupTable =5
+                                    HorizontalAnchor =2
+                                    VerticalAnchor =2
+                                    LayoutCachedLeft =16185
+                                    LayoutCachedTop =840
+                                    LayoutCachedWidth =16329
+                                    LayoutCachedHeight =6719
+                                    ColumnStart =2
+                                    ColumnEnd =2
+                                    LayoutGroup =4
+                                    WidthStretch =50
+                                    GroupTable =5
+                                End
+                            End
+                        End
+                        Begin Page
+                            OverlapFlags =247
+                            Left =135
+                            Top =705
+                            Width =16980
+                            Height =6060
+                            Name ="pgPaint"
+                            Caption ="Paint"
+                            LayoutCachedLeft =135
+                            LayoutCachedTop =705
+                            LayoutCachedWidth =17115
+                            LayoutCachedHeight =6765
+                            Begin
+                                Begin Subform
+                                    OverlapFlags =247
+                                    Left =1095
+                                    Top =840
+                                    Width =15030
+                                    Height =5879
+                                    Name ="frmPaint_ds"
+                                    SourceObject ="Form.frmPaint_ds"
+                                    LinkChildFields ="reqID"
+                                    LinkMasterFields ="ID"
+                                    GroupTable =6
+                                    VerticalAnchor =2
+
+                                    LayoutCachedLeft =1095
+                                    LayoutCachedTop =840
+                                    LayoutCachedWidth =16125
+                                    LayoutCachedHeight =6719
+                                    ColumnStart =1
+                                    ColumnEnd =1
+                                    LayoutGroup =5
+                                    GroupTable =6
+                                End
+                                Begin EmptyCell
+                                    Left =885
+                                    Top =840
+                                    Width =144
+                                    Height =5879
+                                    Name ="EmptyCell90"
+                                    GroupTable =6
+                                    HorizontalAnchor =2
+                                    VerticalAnchor =2
+                                    LayoutCachedLeft =885
+                                    LayoutCachedTop =840
+                                    LayoutCachedWidth =1029
+                                    LayoutCachedHeight =6719
+                                    LayoutGroup =5
+                                    WidthStretch =50
+                                    GroupTable =6
+                                End
+                                Begin EmptyCell
+                                    Left =16185
+                                    Top =840
+                                    Width =144
+                                    Height =5879
+                                    Name ="EmptyCell91"
+                                    GroupTable =6
+                                    HorizontalAnchor =2
+                                    VerticalAnchor =2
+                                    LayoutCachedLeft =16185
+                                    LayoutCachedTop =840
+                                    LayoutCachedWidth =16329
+                                    LayoutCachedHeight =6719
+                                    ColumnStart =2
+                                    ColumnEnd =2
+                                    LayoutGroup =5
+                                    WidthStretch =50
+                                    GroupTable =6
+                                End
+                            End
+                        End
+                        Begin Page
+                            OverlapFlags =247
+                            Left =135
+                            Top =705
+                            Width =16980
+                            Height =6060
+                            Name ="pgRemodels"
+                            Caption ="Remodels"
+                            LayoutCachedLeft =135
+                            LayoutCachedTop =705
+                            LayoutCachedWidth =17115
+                            LayoutCachedHeight =6765
+                            Begin
+                                Begin Subform
+                                    OverlapFlags =247
+                                    Left =1095
+                                    Top =840
+                                    Width =15030
+                                    Height =5879
+                                    Name ="frmRemodels_ds"
+                                    SourceObject ="Form.frmRemodels_ds"
+                                    LinkChildFields ="reqID"
+                                    LinkMasterFields ="ID"
+                                    GroupTable =7
+                                    VerticalAnchor =2
+
+                                    LayoutCachedLeft =1095
+                                    LayoutCachedTop =840
+                                    LayoutCachedWidth =16125
+                                    LayoutCachedHeight =6719
+                                    ColumnStart =1
+                                    ColumnEnd =1
+                                    LayoutGroup =6
+                                    GroupTable =7
+                                End
+                                Begin EmptyCell
+                                    Left =885
+                                    Top =840
+                                    Width =144
+                                    Height =5879
+                                    Name ="EmptyCell94"
+                                    GroupTable =7
+                                    HorizontalAnchor =2
+                                    VerticalAnchor =2
+                                    LayoutCachedLeft =885
+                                    LayoutCachedTop =840
+                                    LayoutCachedWidth =1029
+                                    LayoutCachedHeight =6719
+                                    LayoutGroup =6
+                                    WidthStretch =50
+                                    GroupTable =7
+                                End
+                                Begin EmptyCell
+                                    Left =16185
+                                    Top =840
+                                    Width =150
+                                    Height =5879
+                                    Name ="EmptyCell95"
+                                    GroupTable =7
+                                    HorizontalAnchor =2
+                                    VerticalAnchor =2
+                                    LayoutCachedLeft =16185
+                                    LayoutCachedTop =840
+                                    LayoutCachedWidth =16335
+                                    LayoutCachedHeight =6719
+                                    ColumnStart =2
+                                    ColumnEnd =2
+                                    LayoutGroup =6
+                                    WidthStretch =50
+                                    GroupTable =7
+                                End
+                            End
+                        End
+                        Begin Page
+                            OverlapFlags =247
+                            Left =135
+                            Top =705
+                            Width =16980
+                            Height =6060
+                            Name ="pgDoors"
+                            Caption ="Doors"
+                            LayoutCachedLeft =135
+                            LayoutCachedTop =705
+                            LayoutCachedWidth =17115
+                            LayoutCachedHeight =6765
+                            Begin
+                                Begin Subform
+                                    OverlapFlags =247
+                                    Left =1095
+                                    Top =840
+                                    Width =15030
+                                    Height =5879
+                                    Name ="frmDoors_ds"
+                                    SourceObject ="Form.frmDoors_ds"
+                                    LinkChildFields ="reqID"
+                                    LinkMasterFields ="ID"
+                                    GroupTable =8
+                                    VerticalAnchor =2
+
+                                    LayoutCachedLeft =1095
+                                    LayoutCachedTop =840
+                                    LayoutCachedWidth =16125
+                                    LayoutCachedHeight =6719
+                                    ColumnStart =1
+                                    ColumnEnd =1
+                                    LayoutGroup =7
+                                    GroupTable =8
+                                End
+                                Begin EmptyCell
+                                    Left =885
+                                    Top =840
+                                    Width =144
+                                    Height =5879
+                                    Name ="EmptyCell101"
+                                    GroupTable =8
+                                    HorizontalAnchor =2
+                                    VerticalAnchor =2
+                                    LayoutCachedLeft =885
+                                    LayoutCachedTop =840
+                                    LayoutCachedWidth =1029
+                                    LayoutCachedHeight =6719
+                                    LayoutGroup =7
+                                    WidthStretch =50
+                                    GroupTable =8
+                                End
+                                Begin EmptyCell
+                                    Left =16185
+                                    Top =840
+                                    Width =150
+                                    Height =5879
+                                    Name ="EmptyCell102"
+                                    GroupTable =8
+                                    HorizontalAnchor =2
+                                    VerticalAnchor =2
+                                    LayoutCachedLeft =16185
+                                    LayoutCachedTop =840
+                                    LayoutCachedWidth =16335
+                                    LayoutCachedHeight =6719
+                                    ColumnStart =2
+                                    ColumnEnd =2
+                                    LayoutGroup =7
+                                    WidthStretch =50
+                                    GroupTable =8
+                                End
+                            End
+                        End
+                        Begin Page
+                            OverlapFlags =247
+                            Left =135
+                            Top =705
+                            Width =16980
+                            Height =6060
+                            Name ="pgFurniture"
+                            Caption ="Furniture"
+                            LayoutCachedLeft =135
+                            LayoutCachedTop =705
+                            LayoutCachedWidth =17115
+                            LayoutCachedHeight =6765
+                            Begin
+                                Begin Subform
+                                    OverlapFlags =247
+                                    Left =1095
+                                    Top =840
+                                    Width =15030
+                                    Height =5879
+                                    Name ="frmFurniture_ds"
+                                    SourceObject ="Form.frmFurniture_ds"
+                                    LinkChildFields ="reqID"
+                                    LinkMasterFields ="ID"
+                                    GroupTable =10
+                                    VerticalAnchor =2
+
+                                    LayoutCachedLeft =1095
+                                    LayoutCachedTop =840
+                                    LayoutCachedWidth =16125
+                                    LayoutCachedHeight =6719
+                                    ColumnStart =1
+                                    ColumnEnd =1
+                                    LayoutGroup =9
+                                    GroupTable =10
+                                End
+                                Begin EmptyCell
+                                    Left =885
+                                    Top =840
+                                    Width =144
+                                    Height =5879
+                                    Name ="EmptyCell127"
+                                    GroupTable =10
+                                    HorizontalAnchor =2
+                                    VerticalAnchor =2
+                                    LayoutCachedLeft =885
+                                    LayoutCachedTop =840
+                                    LayoutCachedWidth =1029
+                                    LayoutCachedHeight =6719
+                                    LayoutGroup =9
+                                    WidthStretch =50
+                                    GroupTable =10
+                                End
+                                Begin EmptyCell
+                                    Left =16185
+                                    Top =840
+                                    Width =150
+                                    Height =5879
+                                    Name ="EmptyCell128"
+                                    GroupTable =10
+                                    HorizontalAnchor =2
+                                    VerticalAnchor =2
+                                    LayoutCachedLeft =16185
+                                    LayoutCachedTop =840
+                                    LayoutCachedWidth =16335
+                                    LayoutCachedHeight =6719
+                                    ColumnStart =2
+                                    ColumnEnd =2
+                                    LayoutGroup =9
+                                    WidthStretch =50
+                                    GroupTable =10
+                                End
+                            End
+                        End
+                    End
+                End
+                Begin ComboBox
+                    LimitToList = NotDefault
+                    Enabled = NotDefault
+                    RowSourceTypeInt =1
+                    OverlapFlags =215
+                    TextAlign =1
+                    IMESentenceMode =3
+                    ColumnCount =2
+                    Left =13590
+                    Top =30
+                    Width =3540
+                    Height =570
+                    FontSize =16
+                    TabIndex =1
+                    Name ="cmbPage"
+                    RowSourceType ="Value List"
+                    RowSource ="1;\"Appliances\";2;\"Blinds\";3;\"Paint\";4;\"Remodels\";5;\"Doors\";6;\"Furnitu"
+                        "re\""
+                    ColumnWidths ="0;2880"
+                    AfterUpdate ="[Event Procedure]"
+                    RightPadding =72
+                    HorizontalAnchor =1
+                    AllowValueListEdits =0
+                    InheritValueList =0
+                    LeftMargin =43
+                    TopMargin =29
+
+                    LayoutCachedLeft =13590
+                    LayoutCachedTop =30
+                    LayoutCachedWidth =17130
+                    LayoutCachedHeight =600
+                    ColumnStart =2
+                    ColumnEnd =3
+                    Begin
+                        Begin Label
+                            OverlapFlags =215
+                            TextAlign =3
+                            Left =10200
+                            Top =30
+                            Width =3330
+                            Height =570
+                            FontSize =16
+                            LeftMargin =43
+                            TopMargin =29
+                            BorderColor =0
+                            Name ="Label138"
+                            Caption ="Request Item"
+                            HorizontalAnchor =1
+                            LayoutCachedLeft =10200
+                            LayoutCachedTop =30
+                            LayoutCachedWidth =13530
+                            LayoutCachedHeight =600
+                            ColumnEnd =1
+                            BorderTint =100.0
+                        End
+                    End
+                End
+            End
+        End
+        Begin FormFooter
+            Height =0
+            BackColor =14013909
+            Name ="FormFooter"
+            AlternateBackThemeColorIndex =1
+            AlternateBackShade =95.0
+        End
+    End
+End
+CodeBehindForm
+' See "frmRequests.cls"

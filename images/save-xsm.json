@@ -1,0 +1,12 @@
+﻿{
+  "Info": {
+    "Class": "clsDbSharedImage",
+    "Description": "Shared Image Gallery Item"
+  },
+  "Items": {
+    "Name": "save-xsm",
+    "FileName": "save-xsm.png",
+    "Extension": "png",
+    "ContentHash": "0cd6346"
+  }
+}

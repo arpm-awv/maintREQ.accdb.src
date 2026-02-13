@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "tblAppliance",
+    "Connect": ";DATABASE=\\\\arpmserv1\\common\\Databases\\MaintREQ_be.accdb",
+    "SourceTableName": "tblAppliance",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[applID]"
+  }
+}

@@ -1,0 +1,12 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "Units",
+    "Connect": ";DATABASE=\\\\arpmserv1\\common\\Databases\\General and Prof_be.accdb",
+    "SourceTableName": "Units",
+    "Attributes": 1073741824
+  }
+}

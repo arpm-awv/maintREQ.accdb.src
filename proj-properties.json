@@ -1,0 +1,10 @@
+﻿{
+  "Info": {
+    "Class": "clsDbProjProperty",
+    "Description": "Project Properties (Access)"
+  },
+  "Items": {
+    "VCS Build Path": "\\\\arpmserv1\\users\\awv\\user-db",
+    "VCS Source Path": "\\\\arpmserv1\\users\\awv\\fe-backup\\maintREQ.accdb.src"
+  }
+}

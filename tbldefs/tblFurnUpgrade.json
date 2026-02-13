@@ -1,0 +1,13 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "tblFurnUpgrade",
+    "Connect": ";DATABASE=\\\\arpmserv1\\common\\Databases\\MaintREQ_be.accdb",
+    "SourceTableName": "tblFurnUpgrade",
+    "Attributes": 1073741824,
+    "PrimaryKey": "[furnitureID]"
+  }
+}

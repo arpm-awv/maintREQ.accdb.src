@@ -1,0 +1,12 @@
+﻿{
+  "Info": {
+    "Class": "clsDbTableDef",
+    "Description": "Linked Table"
+  },
+  "Items": {
+    "Name": "tblRemodelTypes",
+    "Connect": ";DATABASE=\\\\arpmserv1\\common\\Databases\\MaintREQ_be.accdb",
+    "SourceTableName": "tblRemodelTypes",
+    "Attributes": 1073741824
+  }
+}
