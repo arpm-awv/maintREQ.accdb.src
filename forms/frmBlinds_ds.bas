@@ -512,7 +512,6 @@ Begin Form
             End
         End
         Begin Section
-            Height =1470
             Name ="Detail"
             AlternateBackColor =15527148
             Begin
@@ -827,7 +826,7 @@ Begin Form
                     BackStyle =0
                     IMESentenceMode =3
                     Left =1725
-                    Top =390
+                    Top =360
                     Width =11580
                     Height =1080
                     FontSize =12
@@ -838,6 +837,7 @@ Begin Form
                     StatusBarText ="Reason for replacement"
                     GroupTable =1
                     LeftPadding =0
+                    TopPadding =0
                     RightPadding =0
                     BottomPadding =0
                     GridlineStyleLeft =1
@@ -847,9 +847,9 @@ Begin Form
                     GridlineColor =0
 
                     LayoutCachedLeft =1725
-                    LayoutCachedTop =390
+                    LayoutCachedTop =360
                     LayoutCachedWidth =13305
-                    LayoutCachedHeight =1470
+                    LayoutCachedHeight =1440
                     RowStart =1
                     RowEnd =1
                     ColumnStart =1
@@ -863,7 +863,7 @@ Begin Form
                             BackStyle =1
                             OverlapFlags =85
                             TextAlign =1
-                            Top =390
+                            Top =360
                             Width =1725
                             Height =1080
                             FontSize =12
@@ -875,6 +875,7 @@ Begin Form
                             Caption ="Reason for Replacement"
                             GroupTable =1
                             LeftPadding =0
+                            TopPadding =0
                             RightPadding =0
                             BottomPadding =0
                             GridlineStyleLeft =1
@@ -882,9 +883,9 @@ Begin Form
                             GridlineStyleRight =1
                             GridlineStyleBottom =1
                             GridlineColor =0
-                            LayoutCachedTop =390
+                            LayoutCachedTop =360
                             LayoutCachedWidth =1725
-                            LayoutCachedHeight =1470
+                            LayoutCachedHeight =1440
                             RowStart =1
                             RowEnd =1
                             LayoutGroup =2
