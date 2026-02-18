@@ -4,162 +4,123 @@ maintREQ.accdb
 VCS Version 4.1.2
 Full Path: \\arpmserv1\users\awv\user-db\maintREQ.accdb
 Export Folder: \\arpmserv1\users\awv\fe-backup\maintREQ.accdb.src\
-Performing Full Export
-2/13/2026 2:00:34 PM
+Using Fast Save
+2/18/2026 3:08:51 PM
 -------------------------------------
-Scanning source files...
-No db connections found in this database.
-No vbe forms found in this database.
-No saved specs found in this database.
-No commandbars found in this database.
-No imex specs found in this database.
-No queries found in this database.
-No macros found in this database.
-No reports found in this database.
-No table data found in this database.
-No table data macros found in this database.
-No relations found in this database.
-No hidden attributes found in this database.
--------------------------------------
-Exporting project...          
-  maintREQ.accdb
-[1]
--------------------------------------
-Exporting vb project...       
-  maintREQ
-[1]
--------------------------------------
-Exporting vbe references...   
-  stdole
-[2]
--------------------------------------
-Exporting proj properties...  
-  Current Project Properties (Access)
-[2]
--------------------------------------
-Exporting modules...          
-  basGlobal
-[1]
--------------------------------------
-Exporting shared images...    
-  save-xsm
-[1]
--------------------------------------
-Exporting themes...           
-  Office Theme
-[1]
+Scanning for changes...
+No modified db connections found in this database.
+No modified project found in this database.
+No modified vb project found in this database.
+No modified vbe references found in this database.
+No modified vbe forms found in this database.
+No modified proj properties found in this database.
+No modified saved specs found in this database.
+No modified modules found in this database.
+No modified commandbars found in this database.
+No modified shared images found in this database.
+No modified themes found in this database.
+No modified imex specs found in this database.
+No modified tables found in this database.
+No modified queries found in this database.
+No modified macros found in this database.
+No modified table data found in this database.
+No modified table data macros found in this database.
+No modified relations found in this database.
+No modified doc properties found in this database.
+No modified nav pane groups found in this database.
+No modified hidden attributes found in this database.
 -------------------------------------
 Exporting db properties...    
   Database Properties (DAO)
-[33]
--------------------------------------
-Exporting tables...           
-  tblAppliance
-  tblApplPart
-  tblBlinds
-  tblDoor
-  tblFurnUpgrade
-  tblPaint
-  tblRemodel
-  tblRemodelTypes
-  tblRequests
-  Units
-[10]
+[51]
 -------------------------------------
 Exporting forms...            
-  frmPaint_ds
-    Sanitized in 0.011 seconds.
-  frmDoors_ds
-    Sanitized in 0.007 seconds.
-  frmAppliance_sub
-    Sanitized in 0.016 seconds.
   frmApplParts_ds
-    Sanitized in 0.002 seconds.
+    Sanitized in 0.003 seconds.
   frmBlinds_ds
-    Sanitized in 0.013 seconds.
+    Sanitized in 0.009 seconds.
   frmRequests
-    Sanitized in 0.026 seconds.
-  frmRemodels_ds
-    Sanitized in 0.014 seconds.
-  frmFurniture_ds
+    Sanitized in 0.022 seconds.
+[3]
+-------------------------------------
+Exporting reports...          
+  rptApplParts
+    Sanitized in 0.005 seconds.
+  rptAppliances
+    Sanitized in 0.009 seconds.
+  rptBlinds
     Sanitized in 0.010 seconds.
-[8]
+  rptPaint
+    Sanitized in 0.007 seconds.
+[4]
+Added default .gitignore file
+Added default .gitattributes file
 -------------------------------------
-Exporting doc properties...   
-  Database Documents
-[2]
--------------------------------------
-Exporting nav pane groups...  
-  Groups
-[1]
--------------------------------------
-Done. (16.79 seconds)
+Done. (8.3 seconds)
 
 --------------------------------------------------
                 PERFORMANCE REPORTS
 --------------------------------------------------
 Category                      Count     Seconds
 --------------------------------------------------
-Forms                         8         6.52
-Tables                        10        4.35
-Nav Pane Groups               1         3.87
-Doc Properties                2         0.38
-Relations                     0         0.30
-Shared Images                 1         0.22
-DB Properties                 33        0.20
-Modules                       1         0.19
-Themes                        1         0.13
-Project                       1         0.12
-Proj Properties               2         0.11
-VB Project                    1         0.10
-VBE References                2         0.10
-DB Connections                0         0.04
-Hidden Attributes             0         0.01
+Forms                         3         5.87
+Reports                       4         0.74
+DB Properties                 51        0.29
+Relations                     0         0.26
+Doc Properties                0         0.25
+Tables                        0         0.13
+DB Connections                0         0.06
+Modules                       0         0.05
+Shared Images                 0         0.04
+Nav Pane Groups               0         0.03
+Themes                        0         0.03
+Hidden Attributes             0         0.02
+VBE References                0         0.02
+Proj Properties               0         0.01
+Project                       0         0.01
+VB Project                    0         0.01
 Table Data Macros             0         0.00
-Reports                       0         0.00
-Queries                       0         0.00
 Table Data                    0         0.00
-IMEX Specs                    0         0.00
-Macros                        0         0.00
 CommandBars                   0         0.00
+IMEX Specs                    0         0.00
 VBE Forms                     0         0.00
 Saved Specs                   0         0.00
+Queries                       0         0.00
+Macros                        0         0.00
 --------------------------------------------------
-TOTALS:                       63        16.67
+TOTALS:                       58        7.84
 --------------------------------------------------
 
 --------------------------------------------------
 Operations                    Count     Seconds
 --------------------------------------------------
-Write File                    34        5.70
-modFileAccess.VerifyPath      44        0.72
-Scan DB Objects               1         0.63
-Get File Property Hash        28        0.55
-Increment Progress            56        0.26
-Convert to JSON               556       0.25
-App.SaveAsText()              8         0.21
-modFileAccess.GetUncPath      32        0.19
-Sanitize File                 8         0.10
-Console Updates               6         0.08
-Write Binary File             1         0.07
-Export Theme                  1         0.07
-Quick Count Files             1         0.03
-Read File DevMode             8         0.03
-Delete File                   10        0.02
-Check for linked table        10        0.02
-Read File Bytes               10        0.02
-Export VBE Module             1         0.01
-Clear Files by Ext            6         0.01
-Get VBA Hash                  9         0.01
-Compute SHA256                85        0.01
-Read File                     9         0.01
-Clear Orphaned Files          9         0.01
-Get Modified Date             63        0.00
+Write File                    11        0.77
+Scan DB Objects               1         0.52
+Clear Orphaned Files          14        0.44
+Convert to JSON               785       0.28
+modFileAccess.VerifyPath      18        0.19
+Get File Property Hash        12        0.15
+Quick Count Files             1         0.14
+App.SaveAsText()              7         0.14
+Increment Progress            45        0.08
+Sanitize File                 7         0.07
+Delete File                   11        0.06
+Console Updates               5         0.06
+Check for linked table        20        0.04
+Read File DevMode             7         0.03
+Get VBA Hash                  13        0.01
+modFileAccess.GetUncPath      3         0.01
+Read File                     8         0.01
 Quick Count Objects           1         0.00
-Sanitize VBA Code             8         0.00
+Read File Bytes               7         0.00
+Parse JSON                    1         0.00
+Compute SHA256                57        0.00
 Close Open Objects            1         0.00
+Get Modified Date             15        0.00
+Parse JSON ISO Date           30        0.00
+Sanitize VBA Code             2         0.00
 --------------------------------------------------
-Other Operations                        7.78
+Other Operations                        5.29
 --------------------------------------------------
 
 

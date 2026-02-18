@@ -6,7 +6,7 @@
   "Items": {
     "MergeBuildDate": null,
     "FullBuildDate": null,
-    "ExportDate": "2026-02-13T19:00:51.000Z",
+    "ExportDate": "2026-02-18T20:09:05.000Z",
     "FullExportDate": "2026-02-13T19:00:51.000Z",
     "OptionsHash": "a3b04c9",
     "LastMergedCommit": "",
@@ -17,10 +17,10 @@
       },
       "DB Properties": {
         "dbs-properties.json": {
-          "FileHash": "52cbf8d",
-          "ExportDate": "2026-02-13T19:00:36.000Z",
+          "FileHash": "4a836f5",
+          "ExportDate": "2026-02-18T20:08:53.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "5adff09"
+          "FilePropertiesHash": "dd4a93a"
         }
       },
       "Doc Properties": {
@@ -40,17 +40,17 @@
           "FilePropertiesHash": "9fbad0b"
         },
         "frmApplParts_ds.bas": {
-          "FileHash": "e475e5e",
-          "ExportDate": "2026-02-13T19:00:45.000Z",
+          "FileHash": "eae906b",
+          "ExportDate": "2026-02-18T20:08:58.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "4986068"
+          "FilePropertiesHash": "1951ca9"
         },
         "frmBlinds_ds.bas": {
-          "FileHash": "0cf5ee0",
+          "FileHash": "a22cb38",
           "OtherHash": "0e9c29b",
-          "ExportDate": "2026-02-13T19:00:45.000Z",
+          "ExportDate": "2026-02-18T20:08:58.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "003ac2f"
+          "FilePropertiesHash": "74207f9"
         },
         "frmDoors_ds.bas": {
           "FileHash": "4ddd06c",
@@ -81,11 +81,11 @@
           "FilePropertiesHash": "2205dd4"
         },
         "frmRequests.bas": {
-          "FileHash": "ccb9536",
+          "FileHash": "f6793c1",
           "OtherHash": "37bd30a",
-          "ExportDate": "2026-02-13T19:00:46.000Z",
+          "ExportDate": "2026-02-18T20:08:59.000Z",
           "SourceModified": null,
-          "FilePropertiesHash": "c406b55"
+          "FilePropertiesHash": "026db7a"
         }
       },
       "Hidden Attributes": {
@@ -123,6 +123,32 @@
           "ExportDate": "2026-02-13T19:00:35.000Z",
           "SourceModified": null,
           "FilePropertiesHash": "da3c079"
+        }
+      },
+      "Reports": {
+        "rptAppliances.bas": {
+          "FileHash": "3833e67",
+          "ExportDate": "2026-02-18T20:08:59.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "5032217"
+        },
+        "rptApplParts.bas": {
+          "FileHash": "de4f4d1",
+          "ExportDate": "2026-02-18T20:08:59.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "79b8609"
+        },
+        "rptBlinds.bas": {
+          "FileHash": "c4ef8b2",
+          "ExportDate": "2026-02-18T20:08:59.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "8af398c"
+        },
+        "rptPaint.bas": {
+          "FileHash": "6eec5e7",
+          "ExportDate": "2026-02-18T20:09:00.000Z",
+          "SourceModified": null,
+          "FilePropertiesHash": "b6019aa"
         }
       },
       "Shared Images": {
