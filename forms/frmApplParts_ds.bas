@@ -107,6 +107,7 @@ Begin Form
                 End
                 Begin TextBox
                     OverlapFlags =85
+                    TextAlign =2
                     IMESentenceMode =3
                     Left =1920
                     Top =480
